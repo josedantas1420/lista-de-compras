@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: beige url(../img/img.png) top left;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 450px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+}
+
+.paragrafo{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.nova_tarefa{
+  width: 83%;
+  padding: 10px;
+  border: none;
+  
+}
+
+.btn_tarefas{
+  width: 17%;
+  padding: 10px 0;
+  background-color: rgb(149, 253, 149);
+  border: none;
+  border-left: 1px solid;
+}
+
+.btn_tarefas:hover{
+  background-color: gray;
+}
+
+.tarefas{
+  display: flex;
+  flex-flow: column nowrap;
+
+  list-style-type: disc;
+  gap: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.tarefas li{
+  display: flex;
+  justify-content: space-between; 
+
+  padding: 0 0 0 3px;
+  list-style-type: circle;
+  width: 100%;
+  border: 1px solid;
+  font-size: 14px; 
+}
+
+.botao{
+  padding: 10px 0;
+  width: 70px;
+  background-color: rgb(250, 139, 139);
+  border: none;
+  border-left: 1px solid;
+}
+
+
