@@ -35,22 +35,18 @@ body {
 }
 
 .nova_tarefa{
-  width: 83%;
+  width: 80%;
   padding: 10px;
   border: none;
   
 }
 
 .btn_tarefas{
-  width: 17%;
+  width: 20%;
   padding: 10px 0;
   background-color: rgb(149, 253, 149);
   border: none;
   border-left: 1px solid;
-}
-
-.btn_tarefas:hover{
-  background-color: gray;
 }
 
 .tarefas{
